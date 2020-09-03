@@ -1,3 +1,5 @@
+Install python 3.8
+
 Clone: `git clone git@github.com:hainh-1527/pinky_book.git`
 
 Vào thư mục dự án: `cd pinky_book`
