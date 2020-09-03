@@ -1,13 +1,15 @@
-`git clone git@github.com:hainh-1527/pinky_book.git`
+Clone: `git clone git@github.com:hainh-1527/pinky_book.git`
 
-`cd pinky_book`
+Vào thư mục dự án: `cd pinky_book`
 
-`virtualenv .venv -p python3`
+Cài máy ảo: `virtualenv .venv -p python3`
 
-`source .venv/bin/activate`
+Vào môi trường máy ảo: `source .venv/bin/activate`
 
-`pip install -r requirements.txt`
+Intall package: `pip install -r requirements.txt`
 
-`python manage.py migrate`
+Tạo database sau đó cập nhật lại tại đây: https://github.com/hainh-1527/pinky_book/blob/master/pinky_book/settings.py#L85-L87
 
-`python manage.py runserver`
+Migrate: `python manage.py migrate`
+
+Run: `python manage.py runserver`
